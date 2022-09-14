@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto ;
+    background: gainsboro;
+    width: 50%;
+}
+h1,h2{
+    background: gold;
+    text-align: center;
+
+}
+p1{
+    color: rgb(187, 36, 36);
+}
+.main-header h1{
+    border: 3px solid black
+}
+.main-header h2{
+    border: 3px solid black
+}
+.container{
+    width:900px;
+    text-align: center;
+    border:5px solid black;
+    background: gray;
+    color: brown;
+  
+}
+.img{
+border: 3px black solid;
+padding: 0px;
+}
+#two{
+    border: 2px rgb(44, 194, 205) solid;
+    text-align: center;
+}
+#three{
+    border-bottom: 5px red solid;
+}

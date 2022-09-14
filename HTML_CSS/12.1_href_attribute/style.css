@@ -1,0 +1,18 @@
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+span a::after {
+  content:'(https://google.com)';
+  color: #ff652f; 
+  font-size:1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+a[target]{
+  color: black;
+  text-decoration: none;
+}

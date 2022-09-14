@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: ghostwhite;
+    /* min-font:10px
+    max-font:30px */
+
+}
+.typo{
+    background: sandybrown;
+    width: 500px;
+    height: 500px;
+    margin: 4vh auto;
+    min-width: 80vw;
+    max-width: 96vw;
+    min-height:40vh;
+    max-height:80vh;
+    
+}
+@media screen and (min-width:350px) {
+    html{
+        font-size: calc(10px+20*((100vh-350px)/650));
+    }
+@media screen and (min-width:1000px) {
+    html{
+        font-size: 30px; 
+    }
+    
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>create an account</h1>
+    <form action="process.php">
+      <div>
+        <label for="email">email:</label><br />
+        <input type="email" id="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">password:</label><br />
+        <input type="password" id="password" name="password" />
+      </div>
+      <div>
+        <label for="age">age</label> <br />
+        <input type="number" id="age" name="age" />
+      </div>
+      <div>
+        <label for="massage">tell us a little about yourself</label><br />
+        <textarea name="massage" id="massage" cols="100" role="5"> </textarea>
+      </div>
+
+      <div>
+        <input type="checkbox" />
+        <label for="membership"
+          >I agree to the<span style="color: blue"> terms of service</span>
+        </label>
+      </div>
+
+      <div>
+        <button type="sumbit">sign up</button>
+      </div>
+    </form>
+  </body>
+</html>

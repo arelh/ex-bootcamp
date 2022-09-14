@@ -1,0 +1,34 @@
+   *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+   }
+   body{
+    background: floralwhite;
+    width:100%;
+    height:100%;
+    display: flex;
+   } 
+   .p1{
+    text-align: center;
+    background: #eee;
+   }
+   .note{
+    color: darkkhaki;
+    text-decoration: underline burlywood 1px;
+   }
+   
+span[data-tooltip]{
+    position: relative;
+}
+span[data-tooltip]:hover::after,span[data-tooltip]:focus::after{
+    content: attr(data-tooltip);
+    background: gold;
+    border:solid red 1px ;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    
+
+}

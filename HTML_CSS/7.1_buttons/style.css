@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:#4c6ca0;
+}
+.a1{
+    background: lightblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   padding:20px;
+   margin-top: 100px;
+   margin-right: 20px;
+   border: lightblue 0.5px solid;
+   border-bottom:none ;
+   text-decoration: none;
+} 
+.a2{
+    background: green;
+    color: white;
+    border-radius:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    margin-top: 100px;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+.a3{
+    background: none;
+    border:1px solid brown;
+    padding:20px;
+    color: white;
+    text-decoration: none;
+}
+.a4{
+    background: none;
+    color: white;
+    border:yellow 2px solid ;
+    border-radius:20px;
+    padding:20px;
+    text-decoration: none;
+}
+.b1{
+    background: yellow;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   padding:10px;
+   margin-top: 100px;
+   margin-right: 20px;
+   border: lightblue 0.5px solid;
+   border-bottom:none ;
+   text-decoration: none;
+}   
+.b2{
+    box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:20px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.b3{
+    box-shadow:inset 0px 1px 0px 0px #3dc21b;
+	background-color:transparent;
+	border:3px solid #af1bd4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.b4{
+    box-shadow:inset 0px 1px 0px 0px #3dc21b;
+	background-color:transparent;
+	border-radius:19px;
+	border:2px solid #1ad62d;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.work{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    text-decoration: none;
+ 
+}

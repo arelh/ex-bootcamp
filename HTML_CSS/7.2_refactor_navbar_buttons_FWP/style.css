@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 6px;
+}
+body{
+    margin: 0 auto ;
+    background: gainsboro;
+    width: 50%;
+    font-family: 'Secular One', sans-serif;
+}
+.main-header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+h1,h2{
+    background: gold;
+    text-align: center;
+
+}
+p1{
+    color: rgb(187, 36, 36);
+}
+.main-header h1{
+    border: 3px solid black
+}
+.main-header h2{
+    border: 3px solid black
+}
+.container{
+    width:547px;
+    text-align: center;
+    border:5px solid black;
+    background: gray;
+    color: brown;
+    padding-bottom: 500px
+  
+}
+.img{
+border: 3px black solid;
+padding: 0px;
+}
+#two{
+    border: 3px white solid;
+    text-align: justify;
+    float: right;
+    width: 78%;
+   
+}
+#three{
+    border: 2px white solid;
+    margin-right: 1px;
+    width: 21%;
+    float: left;
+}
+.myButton1 {
+	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+	background-color:#637aad;
+	border:1px solid #314179;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+	background-color:#5972a7;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+.myButton2 {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 7px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton2:hover {
+	background-color:#eb675e;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+.myButton3 {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+@media(max-width:500px){
+    body{
+        background: yellow;
+        color:black;
+        flex-direction: column;
+        margin-bottom: 50px;
+        
+    }
+}
