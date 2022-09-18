@@ -1,23 +1,23 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: o;
+    padding: 0;
 }
 body{
 background: gray;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 }
 .box{
-    /* margin: 50px; */
-    /* padding: 60px; */ 
+    margin: 50px; 
+    padding: 60px;
     width:250px;
-    height: 150px;
+    height:100px;
     border: black solid 3px;
     text-align: center;
     /* position: relative; */
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .box1{
    position: relative;
@@ -29,11 +29,135 @@ align-items: center;
     height: 100%;
     position: absolute;
     background: red;
+    top: 0;
     left: 0;
     transition: 0.5s ease-out all;
+    transform: translatey(-100%);
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: monospace;
 } 
 .box1:hover::after{
 background: red;
 transform: translatey(0%);
 
 } 
+.box2{
+    position: relative;
+    margin: 50px;
+ }
+ .box2::after{
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     background: blue;
+     left: 0;
+     transition: 0.5s ease-out all;
+     transform: translatex(-100%);
+     padding-top: 50px;
+     font-size: 20px;
+     font-family: monospace;
+     bottom: 0;
+ } 
+ .box2:hover::after{
+ background: blue;
+ transform: translatex(0%);
+ 
+ } 
+
+ .box3{
+    position: relative;
+    margin: 50px;
+ }
+ .box3::after{
+     content: "";
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     right: 0px;
+     transition: 0.5s ease-out all;
+     transform: rotate(100deg);
+     padding-top: 50px;
+     font-size: 20px;
+     font-family: monospace;
+     bottom: 0;
+ } 
+ .box3:hover::after{
+ background: yellow;
+ transform: rotate(0);
+ }
+ .box4{
+    position: relative;
+    margin: 50px;
+ }
+ .box4::after{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     right: 0px;
+     top:0;
+     transition: 0.5s ease-out all;
+     padding-top: 50px;
+     font-size: 20px;
+     font-family: monospace;
+ } 
+ .box4:hover::after{
+ background: pink;
+ transform: skew(6deg);
+ content: "skew";
+ }
+ .box4:hover{
+    transform: skew(20deg); 
+ }
+.box5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: black; 
+}
+ .box5:hover{
+    color: white;
+    background: black;
+    
+}  
+ .box5::before:hover{ 
+    content:"scale";
+    background:black ;
+    color: white;
+    transform: scale(5);
+    height: 100%;
+    transition: all 1.5s ease-in-out;
+  
+ }
+  .box5::before{
+    content:"scale";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    
+   
+ 
+  }  
+    
+
+    */
+      /* content: "scale";
+     width: 100%;
+     height: 100%;
+     /* ; */
+     /* background: black; */
+     /* color: white;
+     top: 0;
+     left: 0;
+     transition: 0.5s ease-out all;
+     padding-top: 40px;
+     font-family: monospace;
+ }  */ 
