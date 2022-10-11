@@ -7,11 +7,10 @@ const school = {
     {
     id: 2,  name: "Williams", subjects: ["history", "ethics"], students: [],  capacityLeft: 2,
     },
-
-
-
-
     ],
+
+
+
     students: [
     {
     id: 10,  name: "Jennifer" ,  age: 20,
