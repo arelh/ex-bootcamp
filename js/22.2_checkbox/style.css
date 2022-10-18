@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.bear{
+    display: none;
+}
+.lion{
+    display: none;
+}
+.cow{
+    display: none;
+}
+.giraffe{
+    display: none;
+}
