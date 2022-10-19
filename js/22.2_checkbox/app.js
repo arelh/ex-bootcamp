@@ -24,8 +24,13 @@ button.addEventListener("click", function (e) {
       bear.style.display = "none";
       giraffe.style.display = "none";
       lion.style.display = "none";
-    } else {
+    } else if (animals.value === "giraffe") {
       giraffe.style.display = "block";
+      bear.style.display = "none";
+      lion.style.display = "none";
+      cow.style.display = "none";
+    } else {
+      giraffe.style.display = "none";
       bear.style.display = "none";
       lion.style.display = "none";
       cow.style.display = "none";

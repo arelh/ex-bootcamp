@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: crimson;
+    padding: 20px;
+}
+.watch{
+    background-color: black;
+    height: 150px;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+}
+.controls{
+    margin: 10px;
+}
+.time{
+    font-size: 50px;
+    color: white;
+}
+button:hover{
+    opacity:1.9s;
+}
