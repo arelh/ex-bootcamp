@@ -1,9 +1,25 @@
-const btnPlus = document.querySelector('button1');
-const btnMinus = document.querySelector('button2');
+const btnPlus = document.querySelector('.button1');
+const btnMinus = document.querySelector('.button2');
 const text=document.querySelector("h1")
+var textSize=20;
+
+
 
 btnPlus.addEventListener("click", ()=> {
-text.style.color = 'white'
+    text.style.fontSize=textSize+20+"px"
+    if(textSize>100){
+        text.style.fontSize=100+"px"
+    }
+})
+
+btnMinus.addEventListener("click", ()=> {
+    
+    text.style.fontSize=textSize
+    textSize=textSize-20
+    text.style.fontSize=textSize+"px"
+    if(textSize<5){
+        text.style.fontSize=6+"px"
+    }
 })
 
 
